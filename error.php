@@ -40,7 +40,7 @@
                 <li class="nav-item">
                     <a href="compar.html" class="nav-link">Compar</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="contacto.html" class="nav-link">Contacto</a>
                 </li>
             </ul>
