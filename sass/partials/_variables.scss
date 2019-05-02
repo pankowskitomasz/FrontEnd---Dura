@@ -1,0 +1,35 @@
+$index-imgs:
+    "../img/idx-s1-bg.jpg",
+    "../img/marca-s1-bg.jpg",
+    "../img/idx-s2-bg.jpg",
+    "../img/idx-s3-bg.jpg",
+    "../img/idx-s4-bg.jpg";
+$marca-imgs:
+    "../img/marca-s1-bg.jpg",
+    "../img/marca-s2-bg.jpg";
+$productos-imgs:
+    "../img/prod-s1-bg.jpg",
+    "../img/marca-s2-bg.jpg";
+$contacto:
+    "../img/idx-s2-bg.jpg",
+    "../img/marca-s2-bg.jpg";
+$class-arr:
+    $index-imgs,
+    $marca-imgs,
+    $productos-imgs,
+    $marca-imgs, 
+    $productos-imgs,  
+    $contacto; 
+$class-names:
+    "index-s",
+    "marca-s",
+    "productos-s",
+    "tips-s",
+    "compar-s",
+    "contacto-s";
+$black-color: #222;
+$font-f1: 'Days One', sans-serif;
+$icon-color: #fff;
+$icon-size: 30px;
+$nav-active-color: #28a745;
+$text-shadow: 1px 1px 3px black;
