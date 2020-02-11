@@ -46,6 +46,11 @@
         background-color: transparent!important;
     }
 }
+.d{
+    &-flex{
+        display: flex;
+    }
+}
 .font-f1{
     font-family: $font-f1;
     font-weight: 400 !important;
@@ -73,6 +78,18 @@ form {
 .minh-100{
     min-height: 100vh;
 }
+.mx{
+    &-auto{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.my{
+    &-auto{
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+}
 .navbar-dark{
     .navbar-nav .active>.nav-link {
         color: $nav-active-color !important;
@@ -80,6 +97,14 @@ form {
 }
 .opacity-09{
     opacity: 0.9;
+}
+.p{
+    &-20{
+        padding:20px;
+    }
+    &-40{
+        padding: 40px;
+    }
 }
 .pos-bottom{
     bottom: 0;
