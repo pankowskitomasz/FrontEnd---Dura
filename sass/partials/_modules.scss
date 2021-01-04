@@ -1,4 +1,4 @@
-@include aoa-bg-series($class-names,$class-arr,0,"top left","cover","scroll");
+@include aoa-bg-series($class-names,$class-arr,0,"top center","cover","scroll");
 
 %input-base {
     &:focus{
@@ -70,8 +70,13 @@ form {
     color: $icon-color !important;
     font-size: $icon-size;
 }
-.minh-100{
-    min-height: 100vh;
+.minh{
+    &-50{
+        min-height: 50vh;
+    }
+    &-100{
+        min-height: 100vh;
+    }
 }
 .navbar-dark{
     .navbar-nav .active>.nav-link {
