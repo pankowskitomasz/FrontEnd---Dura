@@ -46,7 +46,7 @@
             </ul>
         </div>
     </nav>
-    <section class="container-fluid d-flex contacto-s-1">
+    <section class="container-fluid d-flex contacto-s-1 minh-100 align-items-center">
         <div class="row my-auto mx-auto">
             <div class="col-12 col-md-8 mx-auto text-center">
                 <div class="font-italic font-f1 text-danger">
@@ -73,8 +73,13 @@
                 </li>
             </ul>
         </div>
-        <div class="row text-center">
-            <p class="mx-auto pt-2 w-75 border-top border-dark">Copyright &copy; 2019</p>
+        <div class="row text-center px-3">
+            <small class="mx-auto pt-2 w-100 border-top border-dark">
+                Copyright &copy; 2019-2021 Tomasz Pankowski
+                <a href="privacy.html" class="text-light">
+                    Privacy Policy
+                </a>
+            </small>
         </div>
     </footer>
     <script type="text/javascript" src="js/main.min.js"></script>
